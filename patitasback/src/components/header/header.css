@@ -1,0 +1,148 @@
+
+.hd-ft {
+  background-color: #031136;
+  max-width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 30px;
+}
+.container__btn {
+  position: relative;
+  align-items: flex-start;
+}
+.container__btn .saludo {
+  position: absolute;
+  bottom: -50px;
+  color: black;
+}
+
+@media (max-width: 990px) {
+  .hd-ft {
+    height: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .hd-ft ul {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 680px) {
+  .hd-ft {
+    height: 420px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .hd-ft ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 10px 0 30px;
+    text-align: center;
+  }
+}
+
+.hd-ft .hd-ft__logo {
+  width: 180px;
+  height: 80px;
+}
+
+.hd-ft ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.hd-ft li {
+  list-style: none;
+}
+
+.hd-ft .link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 5px;
+  border-bottom: 0px solid #031136;
+}
+
+.hd-ft .link:hover {
+  font-weight: 400;
+  padding: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.hd-ft .btn {
+  width: 120px;
+  padding: 10px 0;
+  border-radius: 50px;
+  border-style: none;
+  font-family: var(--fuente);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hd-ft .btn-donar {
+  background-color: #c7a2cb;
+}
+
+.hd-ft .btn-login {
+  background-color: #fd6b6c;
+  margin-left: 20px;
+}
+
+@media (max-width: 340px) {
+  .hd-ft .container__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hd-ft .btn-login {
+    margin: 0;
+  }
+}

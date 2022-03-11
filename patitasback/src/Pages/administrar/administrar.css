@@ -1,0 +1,17 @@
+.administrar_container{
+    height: 100vh;
+}
+.administrar_container h2{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+}
+.administrar_container div{
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin: 10px 10%;
+}

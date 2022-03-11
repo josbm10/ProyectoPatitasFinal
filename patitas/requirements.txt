@@ -1,0 +1,8 @@
+django
+djangorestframework
+cloudinary
+django-cors-headers
+python-decouple
+djangorestframework-simplejwt
+psycopg2
+gunicorn

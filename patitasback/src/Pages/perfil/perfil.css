@@ -1,0 +1,118 @@
+.perfil_container {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.perfil_carrusel {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.perfil_carrusel img{
+  width: 50%;
+  height: 400px;
+  display: block;
+  border-radius: 16px;
+}
+.perfil_detalles {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.perfil_detalles ul {
+  position: relative;
+  width: 50%;
+}
+.perfil_detalles li {
+  margin: 10px;
+  color: white;
+}
+.perfil_detalles button {
+  border: none;
+  margin: 10px;
+  border-radius: 16px;
+  color: white;
+  background: #fb8500;
+  width: 100px;
+  padding: 10px;
+}
+.perfil_detalles button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background: #dc2f02;
+}
+.li_buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.li_redes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+}
+.li_redes div {
+  width: 150px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn_regresar {
+  position: absolute;
+  margin: 0px;
+  top: -10px;
+  right: -50px;
+}
+
+.proceso_adopcion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+
+.proceso_adopcion img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.proceso_adopcion ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.proceso_adopcion h2 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+.proceso_adopcion li {
+  width: 200px;
+  color: white;
+  height: 250px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.perfil_container .proceso_adopcion li:nth-child(odd) {
+  background: #006d77;
+}
+
+.perfil_container .proceso_adopcion li:nth-child(even) {
+  background: #83c5be;
+}

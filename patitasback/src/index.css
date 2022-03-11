@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+.Breadcrumb {
+  width: 100%;
+  color: black;
+  height: 50px;
+}
+.Breadcrumb li{
+  color: black;
+}

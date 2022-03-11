@@ -1,0 +1,45 @@
+/* Consultas */
+.consultas {
+  width: 90%;
+  margin: 50px auto 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.consultas h2{
+  margin: 0 0 20px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #031136;
+  text-align: center;
+}
+
+
+.consulta {
+  margin: 20px 0;
+  border: 1px solid #434a90;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 10px 10px 10px -6px rgba(67,74,144,0.26);
+-webkit-box-shadow: 10px 10px 10px -6px rgba(67,74,144,0.26);
+-moz-box-shadow: 10px 10px 10px -6px rgba(67,74,144,0.26);
+}
+
+.consulta:hover{
+  border: 2px solid #031136;
+}
+
+.consulta h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #031136;
+  margin-bottom: 20px;
+}
+
+.consulta p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+}

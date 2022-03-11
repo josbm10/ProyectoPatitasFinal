@@ -1,0 +1,54 @@
+
+.donar_container{
+	width: 100%; 
+	float: left;
+	background-image: url("../../assets/image/banner.jpg");
+	height: 100vh;
+	padding-top: 20px;	
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+
+.banner_main {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+.container{
+	width:100%;
+	height: 100%;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	}
+
+.consectetur_text{
+	color: white;
+	font-size: 40px;
+}
+.consectetur_text2{
+	color: white;
+	font-size: 10px;
+}
+.col-sm-1{
+	width: 30%;
+	margin-right: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+}
+.col-sm-2{
+	width: 20%;
+	margin-left: 30%;
+	display: block;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+}
+
