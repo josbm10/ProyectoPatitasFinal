@@ -83,7 +83,7 @@ function PageRegistroAnimales() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    emailjs.sendForm('service_diwuipc', 'template_ekjh745', mail.current, '4TRf6lXXaBFXt6_AX')
+    emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', mail.current, 'USER_ID')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
